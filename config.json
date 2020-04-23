@@ -1,0 +1,7 @@
+{
+    "basedir": "",
+    "files": {
+        "css": ["main.css"],
+        "js": ["main-resp.js", "quiz.js", "social_share.js", "bc_video_player.js"]
+    }
+}

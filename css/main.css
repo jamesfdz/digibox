@@ -1,0 +1,454 @@
+/* line 1, ../sass/cssFiles/_webSeries.scss */
+body {
+  background-color: #011123;
+  color: #fff;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+/* line 8, ../sass/cssFiles/_webSeries.scss */
+.navbar {
+  background-color: #1125ba;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0px;
+}
+
+/*.zoom {
+	transition: transform .1s;
+}*/
+/* line 19, ../sass/cssFiles/_webSeries.scss */
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+/* line 23, ../sass/cssFiles/_webSeries.scss */
+.font {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: #011123;
+}
+
+/* line 29, ../sass/cssFiles/_webSeries.scss */
+.padding-nav1 {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+  text-align: center;
+}
+
+/* line 35, ../sass/cssFiles/_webSeries.scss */
+.padding-nav2 {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  padding-top: 11px !important;
+  text-align: center;
+}
+
+/*.search {
+	height: 35px!important;
+	width: 35px!important;
+}*/
+/* line 47, ../sass/cssFiles/_webSeries.scss */
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 57, ../sass/cssFiles/_webSeries.scss */
+* {
+  box-sizing: border-box;
+  letter-spacing: .3px;
+}
+
+/* line 62, ../sass/cssFiles/_webSeries.scss */
+.section {
+  padding-top: 28px;
+  background-color: #09284d;
+}
+
+/* line 67, ../sass/cssFiles/_webSeries.scss */
+div {
+  display: block;
+}
+
+/* line 71, ../sass/cssFiles/_webSeries.scss */
+.section .section-content-container {
+  margin: auto;
+  max-width: 1440px;
+  padding: 0 10px;
+}
+
+/* line 77, ../sass/cssFiles/_webSeries.scss */
+.section .section-header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  position: relative;
+  padding: 0 10px;
+  letter-spacing: .25px;
+}
+
+/* line 85, ../sass/cssFiles/_webSeries.scss */
+.section .section-header-title {
+  letter-spacing: .25px;
+  line-height: 28px;
+}
+
+/* line 89, ../sass/cssFiles/_webSeries.scss */
+.h1-heading, .h2-heading {
+  font-weight: 600;
+}
+
+/* line 93, ../sass/cssFiles/_webSeries.scss */
+.h2-heading {
+  letter-spacing: .75px;
+}
+
+/* line 97, ../sass/cssFiles/_webSeries.scss */
+.h1-heading, .h2-heading, .h3-heading {
+  margin: 0;
+  font-weight: 400;
+  font-size: inherit;
+}
+
+/* line 103, ../sass/cssFiles/_webSeries.scss */
+.section .section-more {
+  left: inherit;
+  right: 10px;
+  font-size: 14px;
+  color: #3c8cf0;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .75px;
+}
+
+/* line 112, ../sass/cssFiles/_webSeries.scss */
+.v-center {
+  transform: translateY(-50%);
+}
+
+/* line 115, ../sass/cssFiles/_webSeries.scss */
+.v-center, .vh-center {
+  position: absolute;
+  top: 50%;
+}
+
+/* line 120, ../sass/cssFiles/_webSeries.scss */
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* line 130, ../sass/cssFiles/_webSeries.scss */
+.slider-container {
+  width: 100%;
+  position: relative;
+}
+
+/* line 134, ../sass/cssFiles/_webSeries.scss */
+.slider-container .slides-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* line 140, ../sass/cssFiles/_webSeries.scss */
+.slider-container .slides-container {
+  white-space: nowrap;
+  transition: transform .5s;
+}
+
+/* line 145, ../sass/cssFiles/_webSeries.scss */
+.slider-container .slide {
+  display: inline;
+  vertical-align: top;
+}
+
+/* line 150, ../sass/cssFiles/_webSeries.scss */
+.slider-container .slides-container {
+  white-space: nowrap;
+  transition: transform .5s;
+}
+
+/* line 155, ../sass/cssFiles/_webSeries.scss */
+.card-wrapper {
+  display: inline;
+}
+
+/* line 159, ../sass/cssFiles/_webSeries.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 164, ../sass/cssFiles/_webSeries.scss */
+.card {
+  width: 300px;
+  position: relative;
+  padding: 0 6px;
+  margin: 5px 0;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform .2s,opacity .2s;
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 176, ../sass/cssFiles/_webSeries.scss */
+  .lsc-card {
+    width: 20%;
+  }
+
+  /* line 180, ../sass/cssFiles/_webSeries.scss */
+  .inline-top {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* line 185, ../sass/cssFiles/_webSeries.scss */
+  .card {
+    width: 300px;
+    position: relative;
+    padding: 0 6px;
+    margin: 5px 0;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform .2s,opacity .2s;
+  }
+
+  /* line 196, ../sass/cssFiles/_webSeries.scss */
+  .card.loaded {
+    opacity: 1;
+    transform: translateY(0);
+    margin-right: 5px;
+  }
+
+  /* line 202, ../sass/cssFiles/_webSeries.scss */
+  .card .card-content-wrap {
+    width: 100%;
+    position: relative;
+  }
+
+  /* line 207, ../sass/cssFiles/_webSeries.scss */
+  .card .card-actions {
+    z-index: 3;
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity .2s;
+    pointer-events: none;
+  }
+
+  /* line 219, ../sass/cssFiles/_webSeries.scss */
+  .watchlist-button-card {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    line-height: 1;
+    color: #fff;
+    vertical-align: top;
+    cursor: pointer;
+    overflow: visible;
+    pointer-events: all;
+  }
+
+  /* line 232, ../sass/cssFiles/_webSeries.scss */
+  button {
+    border: 0;
+    background: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 240, ../sass/cssFiles/_webSeries.scss */
+  .watchlist-button-card:before {
+    position: absolute;
+    right: 100%;
+    opacity: 0;
+    transition: opacity .3s;
+    padding: 6px 2px;
+    font-size: 11px;
+    content: attr(data-text);
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  /* line 252, ../sass/cssFiles/_webSeries.scss */
+  .watchlist-button-card svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    fill: #fff;
+  }
+
+  /* line 259, ../sass/cssFiles/_webSeries.scss */
+  svg:not(:root) {
+    overflow: hidden;
+  }
+
+  /* line 263, ../sass/cssFiles/_webSeries.scss */
+  :not(svg) {
+    transform-origin: 0px 0px;
+  }
+
+  /* line 267, ../sass/cssFiles/_webSeries.scss */
+  .card .card-image-content {
+    position: relative;
+    border-radius: 3px;
+    font-size: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(34, 34, 34, 0.4);
+  }
+
+  /* line 275, ../sass/cssFiles/_webSeries.scss */
+  .card .image-card {
+    transition: transform .2s;
+  }
+
+  /* line 279, ../sass/cssFiles/_webSeries.scss */
+  .image-card {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 284, ../sass/cssFiles/_webSeries.scss */
+  .image-card .hidden {
+    visibility: hidden;
+  }
+
+  /* line 288, ../sass/cssFiles/_webSeries.scss */
+  .image-card img {
+    width: 100%;
+  }
+
+  /* line 292, ../sass/cssFiles/_webSeries.scss */
+  .image-card .original-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+
+  /* line 299, ../sass/cssFiles/_webSeries.scss */
+  .card .card-overlay {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: opacity .2s;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  /* line 307, ../sass/cssFiles/_webSeries.scss */
+  .card .card-overlay, .card .normal-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* line 313, ../sass/cssFiles/_webSeries.scss */
+  .card .card-details {
+    padding: 10px 0;
+  }
+
+  /* line 317, ../sass/cssFiles/_webSeries.scss */
+  .card .card-header {
+    color: #35344c;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+    line-height: 20px;
+    letter-spacing: .1px;
+  }
+
+  /* line 326, ../sass/cssFiles/_webSeries.scss */
+  .text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* line 332, ../sass/cssFiles/_webSeries.scss */
+  .card .card-subheader {
+    color: #505a78;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* line 338, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .nav.disable {
+    display: none;
+  }
+
+  /* line 342, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .nav {
+    cursor: pointer;
+  }
+
+  /* line 346, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .prev-btn {
+    left: -15px;
+  }
+
+  /* line 350, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .nav-btn {
+    font-size: 0;
+    position: absolute;
+    top: 40%;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateY(-50%);
+    box-shadow: 0 0 24px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 361, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .next-btn {
+    right: -15px;
+  }
+
+  /* line 365, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .prev-btn:after {
+    transform: translateX(20%) rotate(-45deg);
+  }
+
+  /* line 368, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .nav-btn:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    display: inline-block;
+  }
+
+  /* line 377, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .next-btn:after {
+    transform: translateX(-20%) rotate(135deg);
+  }
+
+  /* line 380, ../sass/cssFiles/_webSeries.scss */
+  .slider-container .nav-btn:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    display: inline-block;
+  }
+}
